@@ -1,0 +1,44 @@
+# --- Python bytecode and caches -------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments -------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# --- Jupyter ---------------------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Build and packaging output -------------------------------------------
+build/
+dist/
+*.egg-info/
+
+# --- Secrets and local configuration --------------------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# --- Editor, OS, and tool files -------------------------------------------
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Large or private data (uncomment what applies) -----------------------
+# data/raw/
+# data/cache/
+# *.parquet
+# *.npy
+# *.pt
